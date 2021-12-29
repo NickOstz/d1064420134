@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>糖豆人：终极淘汰赛-說明</title>
+  <style>
+        h1 {
+            font-family: fantasy;
+            color: black;
+            font-size:40px
+        }
+        p {
+            font-family: sans-serif;
+            color: black;
+            font-size:20px
+        }
+
+      .container {
+            position: relative;
+            width: 25%;
+        }
+
+      .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+
+      .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%)
+        }
+
+        .container:hover .image {
+            opacity: 0.3;
+        }
+
+      .container:hover .middle {
+            opacity: 1;
+      }
+
+      .text {
+            background-color: black;
+            color: white;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+        
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+ 
+    </style>
+
+</head>
+    <body id="body" style="background-image:url(Image/background.jpg)">
+<h1>
+    <img width="356" height="371" src="Image/logo.png" alt="Fall Guys - Banner" class="center">
+</h1>
+        
+<h2>        
+<body> 
+    <center>
+
+    <p style="background:white;font-weight: bolder;">
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Store.html">Store</a>
+        <a href="說明.html">網頁說明</a>
+    </p>
+    </center>    
+</body>
+</h2>
+
+<h1>網頁字設計</h1>
+        <p>
+            <img src=ImageD/text.JPG alt="text"> <br>
+            Header 用 Fantasy 字 <br>
+            Paragraphy 用 sans-serif 字
+        </p>
+
+        
+<h1>網頁YOUTUBE</h1> 
+         <p>
+            <img src=ImageD/Youtube.JPG alt="YT"> <br>
+             老師教的 HTML5 程式
+        </p>
+        
+<h1>網頁去最上面</h1> 
+        <p>
+            <img src=ImageD/TOP1.jpg alt="top"> <br>
+            <img src=ImageD/TOP.jpg alt="top"> <br>
+            #myBtn 使用 CSS　程式設計　<br>
+            window.onscroll = function() 是 JavaScript 程式設計       
+        </p>
+        
+<h1>網頁圖片裡面會有字</h1>
+        <p>
+            <img src=ImageD/container1.JPG alt="top"> 
+            <img src=ImageD/container2.JPG alt="top">
+            <img src=ImageD/container3.JPG alt="top"><br>
+            <img src=ImageD/container.JPG alt="top"> <br>
+            使用 CSS　程式設計 當人把滑鼠附近會有字出來
+        </p>
+        
+<h1>網頁上面LOGO</h1>
+        <p>
+             <img src=ImageD/center.jpg alt="center"> <br>
+            使用 CSS 程式設計 在改變網頁的大小把圖片也會一起改變(也會在中間)<br>
+            <img src=ImageD/center1.JPG alt="center"> <br>
+        </p>
+<h1>網頁音樂</h1>
+        <p>
+            <img src=ImageD/Audio.JPG alt="center"> <br>
+            老師教的 HTML5 程式
+        </p>
+    
+        
+        
+        
+        
+        
+        
+        
+ <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: black;
+}
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+
+var mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
